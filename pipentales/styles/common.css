@@ -1,0 +1,83 @@
+/***** default*****/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  width: 100%;
+  overflow: scroll;
+}
+
+/***** default *****/
+/***** header*****/
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+
+
+}
+
+#nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+#nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav-links a:hover,
+#nav-links a:active {
+  text-decoration: underline;
+}
+
+.cart-icon a{
+  text-decoration: none;
+}
+
+/***** End header *****/
+
+/***** sosmed-logo *****/
+
+#sosmed-holder {
+  margin: 60px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.sosmed-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+}
+
+/***** End sosmed-logo *****/
+/***** Brandterms *****/
+
+
+#brand-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+/***** End Brandterms *****/

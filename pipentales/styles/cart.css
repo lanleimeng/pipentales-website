@@ -1,0 +1,19 @@
+#cart-holder {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.empty-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 60px;
+}
+
+.add-item{
+  display: flex;
+  
+}
